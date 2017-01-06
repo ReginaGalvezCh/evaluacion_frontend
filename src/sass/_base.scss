@@ -1,0 +1,71 @@
+html {
+  height: 100vh;
+}
+body {
+	min-height: 100vh;
+}
+nav .brand-logo{
+	color:$orange; 
+}
+.fa-info-circle {
+	color: $orange; 
+	float: right;
+}
+.logo-gris {
+	max-width: 60%;
+}
+#mapa {
+	background-image: url('../img/background.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.float {
+	height: 200px;
+	width: 300px;
+	color: #444; 
+	background-color: $blanco;
+	margin-top: -20px;
+}
+.select-dropdown {
+color: #444; 
+
+}
+.btn-large {
+width: 300px;
+}
+select.browser-default {
+width: 90%;
+margin: 15px;
+border: 1px solid $orange; 
+}
+.floatdo {
+	height: 400px;
+	width: 300px;
+	color: #444; 
+	background-color: $blanco;
+	margin-top: 30px;
+}
+.alineados {
+	height: 45px;
+	vertical-align: top;
+	margin-top: -12px;
+}
+.letrapax {
+	font-size: 10px;
+	text-align: center;
+
+}
+.letraSelect {
+	margin: 15px;
+	margin-top: 5px;
+}
+.cuadroAbajo{
+width: 30%;
+float: right;
+border: 1px solid $orange; 
+margin-top: -35px;
+margin-bottom: 10px;
+margin-right: 30px;
+}

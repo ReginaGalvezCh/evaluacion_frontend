@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Examen Herramientas Productividad</title>
+	<!--REQUIRED STYLE SHEETS-->
+
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/materialize-css/dist/css/materialize.min.css">
+
+
+	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css"></head>
+	<body>
+		<header>
+			<div class="row">
+				<div class="col s6 m6 l6">
+					<img src="docs/logo-gris.jpg" class="logo-gris">
+
+				</div>
+				<div class="col s6 m6 l6">
+
+					<i class="fa fa-info-circle fa-5x tooltipped " data-position="bottom" data-delay="50" img="docs/logo-peach.jpg" data-tooltip="La nueva forma de movilizarte en la ciudad . Con Carrocomp! puedes compartir tus viajes con tus amigos y cobrar el costo equivalente" aria-hidden ="true"></i>
+				</div>
+			</div>
+		</header>
+
+		<section id="mapa" > 
+
+			<div class="row ">
+				<div class="input-field col m4">
+					<div class="float ">
+						<div class="select">
+							<p>ORIGEN</p>
+							<select name="" id="origen" class=" browser-default selctBtn">
+								<option value="0">Seleccione</option>
+								<option value="Arica">Arica</option>
+								<option value="Iquique">Iquique</option>
+								<option value="Antofagasta">Antofagasta</option>
+								<option value="Calama">Calama</option>
+								<option value="La Serena">La Serena</option>
+								<option value="Valparaiso">Valparaiso</option>
+								<option value="Santiago">Santiago</option>
+								<option value="Rancagua">Rancagua</option>
+								<option value="Talca">Talca</option>
+								<option value="Concepcion">Concepcion</option>
+								<option value="Temuco">Temuco</option>
+								<option value="Valdivia">Valdivia</option>
+								<option value="Puerto Montt">Puerto Montt</option>
+								<option value="Coyhaique">Coyhaique</option>
+								<option value="Punta Arenas">Punta Arenas</option>
+							</select> 
+						</div>
+						<div class="select-dest">
+							<p>DESTINO</p>
+							<select name="" id="destino" class=" browser-default btnDis">
+								<option value="0">Seleccione</option>
+								<option value="Arica">Arica</option>
+								<option value="Iquique">Iquique</option>
+								<option value="Antofagasta">Antofagasta</option>
+								<option value="Calama">Calama</option>
+								<option value="La Serena">La Serena</option>
+								<option value="Valparaiso">Valparaiso</option>
+								<option value="Santiago">Santiago</option>
+								<option value="Rancagua">Rancagua</option>
+								<option value="Talca">Talca</option>
+								<option value="Concepcion">Concepcion</option>
+								<option value="Temuco">Temuco</option>
+								<option value="Valdivia">Valdivia</option>
+								<option value="Puerto Montt">Puerto Montt</option>
+								<option value="Coyhaique">Coyhaique</option>
+								<option value="Punta Arenas">Punta Arenas</option>
+							</select> 
+						</div>
+					</div>
+					<a class="waves-effect waves-light btn-large orange darken-4" id="btnOrange" disabled="disabled" onclick="mostrar()">Button</a>
+					<div class="row">
+						<div id="floatdo" class="floatdo" style="display: none" >
+							<h6 class="letraSelect"> VEHICULO Seleccione</h6>
+
+
+							<form action="#">
+
+								<p>
+									<input class="with-gap" name="group1" type="radio" id="test1"  />
+									<label for="test1"><img src="docs/moto.jpg" class="alineados vertical-align">Motocicleta</label> <p class="letrapax"> maximo 2 pasajeros </p>
+
+								</p>
+
+								<p>
+									<input class="with-gap" name="group1" type="radio" id="test2"  />
+									<label for="test2"><img src="docs/auto.jpg" class="alineados vertical-align">Auto</label> <p class="letrapax"> maximo 5 pasajeros </p>
+								</p>
+								<p>
+									<input class="with-gap" name="group1" type="radio" id="test4"  />
+									<label for="test4" ><img src="docs/van.jpg" class="alineados vertical-align">Mini Van</label> <p class="letrapax"> maximo 10 pasajeros </p>
+								</p>
+								<p>
+									<input class="with-gap" name="group1" type="radio" id="test3"  />
+									<label for="test3"><img src="docs/camion.jpg" class="alineados vertical-align">Camion</label> <p class="letrapax"> maximo 3 pasajeros </p>
+								</p>
+							</form>
+							<h6>Cantidad de pasajeros :</h6>
+						<div class="input-field ">
+							<textarea id="textarea1" class="textarea cuadroAbajo"></textarea>
+							<label for="textarea1"></label>
+							</div>
+							<a class="waves-effect waves-light btn-large orange darken-4">Button</a>
+
+						</div>
+					</div>
+
+					
+
+					
+				</div>
+			</div>
+
+
+
+		</section>
+
+
+
+
+
+
+
+
+		<div id="footer">
+			2014 www.yourdomain.com | All Right Reserved  
+		</div><!-- END FOOTER SECTION -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+		<script type="text/javascript" src="dist/js/script.min.js"></script>
+		<script type="text/javascript" src="src/js/custom.js"></script>
+		<!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyKyKw_EOsADrCgiW7-anSpFMyoBR4-J8&callback=initMap"></script>-->
+	</body>
+	</html>
